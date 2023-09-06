@@ -102,7 +102,7 @@ function create_id() {
 	return ID;
 }
 
-if (typeof module === "undefined") {
+if (typeof module === "undefined") { //if this is running in the browser, it doesn't need the module.exports.
   var module = new Object();
 }
 
